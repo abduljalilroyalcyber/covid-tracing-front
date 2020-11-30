@@ -1,6 +1,4 @@
 language: java
-node_js:
-  - "7"
 sudo: true
 dist: trusty
 jdk: oraclejdk9
