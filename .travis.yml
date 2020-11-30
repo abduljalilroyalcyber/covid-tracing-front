@@ -8,3 +8,7 @@ addons:
       - oracle-java9-installer
 before_install:
   - chmod +x mvnw
+deploy:
+  provider: heroku
+  api_key: 887758c8-2e7d-4773-867d-2be5c07f4df1
+  app: demo-rc-spring
